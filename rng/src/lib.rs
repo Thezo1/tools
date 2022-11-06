@@ -31,7 +31,7 @@ impl Random
     }
 
     //return number from 0..n excluding n
-    fn random(&mut self, n: u32) -> u32
+    pub fn random(&mut self, n: u32) -> u32
     {
         let mut y = 0;
         let mag01 = [0x0, MATH_MATRIX_A];
